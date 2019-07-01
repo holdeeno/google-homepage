@@ -1,30 +1,60 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-
-	<title>project: recreate google homepage</title> <!-- Remember, the title is what will be displayed in search results, and on the tab descriptions in the browser. -->
-
-	<link rel="stylesheet" href="style.css"> <!-- This needs to be included so we can use the stylesheet -->
-
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-	<h1>Hi there</h1>
+  <div class="navbar">
+    <a class="navlefta" href="#">About</a>
+    <a class="navleftb" href="#">Store</a>
+    <a id="signin" href="#">Sign in</a>
+    <a id="google-apps" href="#"><img src="#" alt="google-apps"></a>
+    <a class="navright" href="#">Images</a>
+    <a class="navright" href="#">Gmail</a>
+  </div>
 
-	<!-- To-Do 
-		
-		-use flexbox / grid to create the outline. Use normal colored boxes or something so I can get an idea for the layout. Maybe watch a tutorial on how people use flexbox / grid to set up the firefram of their websites.
-		-Compile all of the images off of Google's homepage (the main logo, the 'images', 'videos', 'search' tag, etc.). I should be able to grab these from the actual homepage by using 'inspect', and then downloading the files directly from the HTML. 
-		-Put all of these files in a 'resources' file in the same directory as the HTML and CSS code
-		-Create the search box, and use CSS to round the corners, add the appropriate shadow, make it the correct size, center it with the google logo, etc.
-		-Add all of the text in the footer (I actually think that all of the text is probably just styled HTML, so just make sure I get the font-family and color right.)
-		-Add effects to the box so it changes when you click on it 
+  <img id="logo" src="https://github.com/holdeeno/google-homepage/blob/master/images/google-logo.png?raw=true" alt="Google logo">
 
+  <div class="center">
+    <div class="searchbar">
+        <img class="googlemic" src="https://github.com/holdeeno/google-homepage/blob/master/images/google-mic-color.png?raw=true" alt="googlemic">
+        <input id="search" type="text">
+        <input id="googlesearch" value="Google Search" type="submit">
+        <input id="lucky" value="I'm Feeling Lucky" type="submit">
+    </div>
+  </div>
 
-	-->
+  <div id="footer">
 
-	<img src="file:///D:/Documents/coding-summer-2019/the_odin_project/web-development-101/the-front-end/project-html-css/google-homepage/sources/google-logo-color.png" alt="Google" width="272" height="92">
+    <div class="foot">
+
+      <div class="footleft">
+
+       <a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+
+       <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+
+       <a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
+
+      </div>
+
+      <div class="footright">
+
+        <a href="https://www.google.com/preferences?hl=en">Settings</a>
+        <a href="https://www.google.com/intl/en_us/policies/terms/?fg=1">Terms</a>
+        <a href="https://www.google.com/intl/en_us/policies/privacy/?fg=1">Privacy</a>
+
+      </div>
+
+    </div>
+
+  </div>
 
 </body>
 
