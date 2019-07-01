@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .navbar {
   position: fixed;
   top: 16px;
@@ -16,7 +20,7 @@ a {
   width: 100%;
 }
 
-.navlefta {
+.navleft-one {
   margin-left: 2px;
   line-height: 29px;
   padding-left: 15px;
@@ -24,7 +28,7 @@ a {
   opacity: 0.90;
 }
 
-.navleftb {
+.navleft-two {
   margin-left: 3.6px;
   line-height: 29px;
   padding-left: 15px;
@@ -66,10 +70,6 @@ a {
   cursor: default;
   text-decoration: none;
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 #logo {
