@@ -103,11 +103,15 @@ a:hover {
   width: 582px;
 }
 
+.searchbar: hover {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
 #search {
   width: 414px;
   background-color: transparent;
   border: none;
-  margin: 5px 0 0 20px;
+  margin: 5px 0 0 0px;
   padding: 0;
   color: rgba(0,0,0,.87);
   word-wrap: break-word;
@@ -148,6 +152,11 @@ a:hover {
   box-sizing: border-box;
 }
 
+#googlesearch:hover {
+  border: 1px solid gray;
+  color:#333333;
+}
+
 #lucky {
   display: inline-block;
   position:absolute;
@@ -168,6 +177,11 @@ a:hover {
   line-height: 27px;
   align-items: flex-start;
   box-sizing: border-box;
+}
+
+#lucky:hover {
+  border: 1px solid gray;
+  color: #333333;
 }
 
 #footer {
